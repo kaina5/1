@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class conditionalopérator {
+	public static void main(String[]args) {
+	  // if else statemnt
+		
+		int tailler=160;
+		int tailleu;
+		Scanner reader=new Scanner(System.in);
+		
+		System.out.println(" Entre votre taille ");
+		tailleu=reader.nextInt();
+		
+		
+		if( tailleu<tailler)
+		{			
+			System.out.println(" 9ssira ");
+		}
+		
+		else if (tailleu>tailler)
+		{
+			System.out.println(" tawila");
+		}
+		else
+		{
+			System.out.println(" wa bino bin");
+		}
+			
+		
+		
+	}
+
+}
